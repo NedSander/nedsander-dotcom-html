@@ -19,5 +19,8 @@
   "homepage": "https://github.com/NedSander/nedsander-dotcom-html#readme",
   "dependencies": {
     "bulma": "^0.8.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
   }
 }
