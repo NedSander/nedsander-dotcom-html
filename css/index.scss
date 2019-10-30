@@ -1,3 +1,20 @@
 //For Bulma usage:
     @import "../node_modules/bulma/bulma.sass";
     
+//For regular use:
+.email:hover {
+    fill: #db4437;
+}
+.github:hover {
+    fill: #6cc644;
+}
+.has-bg-img { 
+    background: url('../assets/1028191822a.jpg')center center; 
+    background-size:cover;
+}
+.icon {
+    fill:white;
+}
+.linkedin:hover {
+    fill: #2867B2;
+}
