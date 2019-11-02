@@ -1,4 +1,9 @@
 //For Bulma usage:
+    $primary: hsl(21, 82%, 51%);
+    $dark: hsl(321, 25%, 16%);
+    $body-background-color: hsl(260, 16%, 7%);
+    $warning: hsl(10, 51%, 43%);
+    $danger: hsl(1, 38%, 29%);
     @import "../node_modules/bulma/bulma.sass";
     
 //For regular use:
@@ -13,8 +18,11 @@
     background-size:cover;
 }
 .icon {
-    fill:white;
+    fill:#ffffff;
 }
 .linkedin:hover {
     fill: #2867B2;
+}
+path {
+     transition: fill .4s ease;
 }
