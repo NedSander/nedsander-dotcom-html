@@ -1,0 +1,39 @@
+//For Bulma usage:
+    $primary: hsl(21, 82%, 51%);
+    $dark: hsl(321, 25%, 16%);
+    $body-background-color: hsl(260, 16%, 7%);
+    $warning: hsl(10, 51%, 43%);
+    $danger: hsl(1, 38%, 29%);
+    @import "../../node_modules/bulma/sass/utilities/_all.sass";
+    @import "../../node_modules/bulma/sass/components/level.sass";
+    @import "../../node_modules/bulma/sass/components/navbar.sass";
+    @import "../../node_modules/bulma/sass/elements/container.sass";
+    @import "../../node_modules/bulma/sass/grid/columns.sass";
+    @import "../../node_modules/bulma/sass/layout/hero.sass";
+    
+//For regular use:
+.email:hover {
+    fill: #db4437;
+}
+.github:hover {
+    fill: #6cc644;
+}
+.has-bg-img { 
+    background: url('../../assets/img/1206182100.jpg')center center; 
+    background-size:cover;
+}
+.icon {
+    fill:#ffffff;
+}
+.linkedin:hover {
+    fill: #2867B2;
+}
+.openstreetmap:hover {
+    fill: #FCD6A4;
+}
+p.copyright {
+    font-size:10px;
+}
+path {
+     transition: fill .4s ease;
+}
